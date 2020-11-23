@@ -1,0 +1,24 @@
+tr {display: block; }
+tbody { display: block;} 
+
+.myclass{
+    width: 50px;
+    height: 50px;
+    /* background-color:rgb(233, 224, 98); */
+    border-radius: 6px;
+    margin: 0px;
+}
+
+/* table.table-bordered{
+    border:1px solid blue;
+    margin-top:20px;
+}
+table.table-bordered > thead > tr > th{
+    border:1px solid blue;
+} */
+/* table{
+    border:2px solid white;
+} */
+table > tbody > tr > td{
+    border:2px solid white;
+}
